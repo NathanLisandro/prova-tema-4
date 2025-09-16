@@ -3,8 +3,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { ComputadorModule } from './users/entities/computador/computador.module';
-import { PerifericoModule } from './users/entities/perifericos/perifericos.module';
+import { ComputadorModule } from './domain/computador/computador.module';
+import { PerifericoModule } from './domain/perifericos/perifericos.module';
+
 
 
 @Module({
